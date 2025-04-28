@@ -1,8 +1,8 @@
 const App = ({ title = "Animal Groups", data = [] }) => {
   return (
   <>
-  <h1>{title}</h1>
   <table className="animal-table">
+  <caption>{title}</caption>
     <tbody>
       {data.map((group) => (
         <tr key={group.id}>
