@@ -1,0 +1,12 @@
+.active {
+    color: red;
+    font-weight: bold;
+  }  
+
+.animal-table,
+.animal-table th,
+.animal-table td {
+    border-collapse: collapse;
+    border: 1px solid #555;
+    padding: 5px 10px;
+}
