@@ -1,0 +1,17 @@
+
+.task {
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: list-item;
+  list-style: disc;
+  margin-left: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}

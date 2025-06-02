@@ -1,0 +1,17 @@
+
+.list {
+  border: 1px dashed black;
+  padding: 1rem;
+  flex: 1 1 300px;
+  max-width: 500px; 
+  min-width: 300px; 
+  box-sizing: border-box;
+}
+
+
+.legend {
+  padding: 0 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
