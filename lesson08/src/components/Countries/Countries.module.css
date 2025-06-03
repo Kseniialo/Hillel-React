@@ -1,0 +1,19 @@
+.wrapper { 
+  padding: 2rem; 
+}
+
+.list { 
+  list-style: disc; 
+  padding: 0; 
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+}

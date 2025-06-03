@@ -1,0 +1,22 @@
+.header { 
+    background: #eee; 
+    padding: 1rem; 
+}
+
+.nav { 
+    display: flex; 
+    gap: 1rem; 
+    display: block;
+}
+
+.nav a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.active {
+    color: red !important;
+}
+  
+
+  
