@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  background: #102040;
+  color: #fff;
+}
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+.logout {
+  padding: 10px 34px;
+  background: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(229,57,53,0.08);
+  letter-spacing: 1px;
+  margin-left: 18px;
+  max-width: 200px;
+}
+.logout:hover, .logout:focus {
+  background: #c62828;
+}
+@media (max-width: 600px) {
+  .header { flex-direction: column; align-items: flex-start; }
+  .logout { margin: 10px 0 0 0; width: 100%; }
+}
